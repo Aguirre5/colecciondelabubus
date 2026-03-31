@@ -10,14 +10,15 @@ os.system('cls')
 # Tiene al menos un carácter especial (por ejemplo, !, @, #, $, %, etc.).
 # Informa al usuario si la contraseña es válida o no.
 
-password = input("Por favor, ingresa una contraseña: ")
+password = inut(Ponga, una contraseña: )
 if (len(password) >= 8 and
-    any(c.isupper() for c in password) and
+    any(c.issuper() for c in password) and
     any(c.islower() for c in password) and
     any(c.isdigit() for c in password) and
-    any(c in "!@#$%^&*()-_=+[]{}|;:'\",.<>?/" for c in password)):
+    any(c in "!@#$%^&*()-_=+[]{}|;:'\",.<>?/" for c in password)):.
+
     print("La contraseña es válida.")
 else:
-    print("La contraseña no es válida.")
+    print("La contraseña no es válida")
 
-# Ya lo hicimos con Postai.
+# Ya lo hicimos con Postai kk.
